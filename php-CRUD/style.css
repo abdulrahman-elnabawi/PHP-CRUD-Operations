@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+color: #333;
+}   
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+   
+}
+h1 {
+    
+    margin-bottom: 10px;
+}
+
+a {
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3f8ee4;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+   
+    
+}
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+td:hover{
+    white-space: normal;
+}
+th {
+    text-align: left;
+}
+.btn-delete {
+    background-color: #dc3545;
+    margin-left: 2px;
+
+}
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F2F2F2;
+}
+.Form-Wrapper {
+    background: #fff;
+    width: 600px;
+    padding: 20px 20px 30px;
+    border-radius: 5px;
+    
+}
+.Form-Wrapper h1 {
+    text-align: center;
+}   
+input,
+textarea {
+    width: 100%;
+    margin: 6px 0;
+    padding: 8px;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+} 
+textarea {
+    height: 100px;
+    resize: none;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.btn-box button{
+    padding: 4px 25px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius:  4px;
+    cursor: pointer;
+    background: #7494ec;
+
+}
+.btn-box a{
+    background: transparent;
+    color: #7494ec;
+    border: 2px solid #7494ec;
+    padding: 3px 25px;
+}
